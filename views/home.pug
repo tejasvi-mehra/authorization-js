@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    title Node.js Authentication
+    // Bootstrap core CSS
+    link(href='/stylesheets/bootstrap.css', rel='stylesheet')
+    // Custom styles for this template
+    link(href='/stylesheets/cover.css', rel='stylesheet')
+  body
+    .site-wrapper
+      .site-wrapper-inner
+        .cover-container
+          .masthead.clearfix
+            .inner
+              h3.masthead-brand Node.js Authentication
+              nav.nav.nav-masthead
+                a.nav-link.active(href='/') Home
+                a.nav-link(href='/users/register') Register
+                a.nav-link(href='/users/login') Login
+          .inner.cover
+            h1.cover-heading Home Page.
+            p.lead
+              | Just another authentication system.
+            .btn-group-vertical
+              p.lead
+                a.btn.btn-lg.btn-secondary(href='/users/register', style="border-color: black") Register
+                a.btn.btn-lg.btn-secondary(href='/users/login' , style="border-color: black") Login
+    //
+      Bootstrap core JavaScript
+      ==================================================
+    // Placed at the end of the document so the pages load faster
+    script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
+    script.
+      window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\\/script>')
+    script(src='../../../../assets/js/vendor/popper.min.js')
+    script(src='../../../../dist/js/bootstrap.min.js')
+    // IE10 viewport hack for Surface/desktop Windows 8 bug
+    script(src='../../../../assets/js/ie10-viewport-bug-workaround.js')

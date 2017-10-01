@@ -12,6 +12,10 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+router.get('/home', function(req, res, next){
+  res.render('home.pug', {title:'Home'});
+})
+
 router.get('/register', function(req, res, next) {
   res.render('register.pug', {title:'Register'});
 });

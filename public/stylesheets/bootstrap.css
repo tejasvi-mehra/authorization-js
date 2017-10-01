@@ -21,6 +21,7 @@
   pre {
     white-space: pre-wrap !important;
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
@@ -92,8 +93,9 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  background-color: #333;
 }
 
 [tabindex="-1"]:focus {
